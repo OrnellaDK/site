@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site personnel de SANGANG DCHYMKOU Ornella pour une recherche d'emploi">
+    <title>Site Personnel - SANGANG DCHYMKOU Ornella</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Section de navigation -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Accueil</a></li>
+                <li><a href="#about">À propos de moi</a></li>
+                <li><a href="#skills">Compétences</a></li>
+                <li><a href="#projects">Projets</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Section Accueil -->
+    <section id="home" class="section home">
+        <h1>Bienvenue sur mon site personnel</h1>
+        <p>Je suis SANGANG DCHYMKOU Ornella, développeur passionné à la recherche de nouvelles opportunités.</p>
+    </section>
+
+    <!-- Section À propos -->
+    <section id="about" class="section about">
+        <h2>À propos de moi</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>Je suis élève ingénieure en télécommunications et réseaux, passionnée de sécurité des réseaux. Actuellement en formation pour une certification AWS et avec une expérience solide en networking, je cherche à contribuer à des projets novateurs.</p>
+            </div>
+            <div class="about-photo">
+                <img src="images/profil.jpg" alt="Photo de Ornella">
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Compétences -->
+    <section id="skills" class="section skills">
+        <h2>Mes Compétences</h2>
+        <ul>
+            <li>HTML / CSS</li>
+            <li>JavaScript</li>
+            <li>React / Angular</li>
+            <li>Node.js / Express</li>
+            <li>SQL / NoSQL</li>
+            <li>Git / GitHub</li>
+            <li>C / C++</li>
+            <li>Java</li>
+            <li>Python</li>
+            <li>Matlab</li>
+        </ul>
+    </section>
+
+    <!-- Section Projets -->
+    <section id="projects" class="section projects">
+        <h2>Mes Projets</h2>
+        <div class="projects-gallery">
+            <div class="project-item">
+                <img src="images/udp.png" alt="Projet 1">
+                <h3>Transfert de trafic UDP</h3>
+                <p>Simulation d'un transfert de trafic UDP.</p>
+                <a href="https://github.com/ton-compte/projet1" target="_blank">Voir sur GitHub</a>
+            </div>
+            <div class="project-item">
+                <img src="images/robot.jpg" alt="Projet 2">
+                <h3>Robot autonome pour la coupe de France</h3>
+                <p>Conception et réalisation d'un robot autonome.</p>
+                <a href="https://github.com/ton-compte/projet2" target="_blank">Voir sur GitHub</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact" class="section contact">
+        <h2>Contactez-moi</h2>
+        <form action="mailto:tonemail@example.com" method="post" enctype="text/plain">
+            <label for="name">Nom:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 SANGANG DCHYMKOU Ornella - Tous droits réservés.</p>
+    </footer>
+
+</body>
+</html>
