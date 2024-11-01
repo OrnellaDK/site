@@ -128,3 +128,17 @@ footer {
     text-align: center;
     margin-top: 2rem;
 }
+.social-links {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.social-links img {
+    width: 100px;
+    height: 100px;
+    transition: transform 0.8s ease;
+}
+
+.social-links img:hover {
+    transform: scale(1.1);
+}
