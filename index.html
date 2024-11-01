@@ -81,7 +81,7 @@
     <!-- Section Contact -->
     <section id="contact" class="section contact">
         <h2>Contactez-moi</h2>
-        <form action="mailto:tonemail@example.com" method="post" enctype="text/plain">
+        <form action="https://formspree.io/f/mjkvyokl" method="POST">
             <label for="name">Nom:</label>
             <input type="text" id="name" name="name" required>
 
@@ -91,18 +91,23 @@
             <label for="message">Message:</label>
             <textarea id="message" name="message" required></textarea>
 
+            <!-- Google reCAPTCHA Widget -->
+            <div class="g-recaptcha" data-sitekey="6LeqbHIqAAAAAK6OQe-RZBwIdky_zPVD1HL0lS9e"></div>
+
             <button type="submit">Envoyer</button>
         </form>
     </section>
 
-     <!-- Lien vers LinkedIn -->
-     <div class="social-links">
+    <!-- Ajout de la bibliothèque JavaScript de Google reCAPTCHA -->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+    <!-- Lien vers LinkedIn -->
+    <div class="social-links">
         <p>Retrouvez-moi sur LinkedIn pour plus d'informations :</p>
         <a href="https://www.linkedin.com/in/ornella-sangang-dchymkou-3568ab28b?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BHnVisawIRqq5KlE1oVTD9w%3D%3D" target="_blank">
             <img src="images/linkedin.jpg" alt="LinkedIn" style="width:30px;height:30px;margin-top:10px;">
         </a>
     </div>
-</section>
 
     <footer>
         <p>&copy; 2024 SANGANG DCHYMKOU Ornella - Tous droits réservés.</p>
