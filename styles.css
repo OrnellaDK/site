@@ -134,11 +134,12 @@ footer {
 }
 
 .social-links img {
-    width: 100px;
-    height: 100px;
-    transition: transform 0.8s ease;
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s ease;
 }
 
 .social-links img:hover {
     transform: scale(1.1);
 }
+
