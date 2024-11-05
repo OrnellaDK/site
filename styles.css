@@ -31,36 +31,48 @@ header nav ul li a {
     text-decoration: none;
 }
 
-/* Supprimer la limite de largeur dans .section pour occuper tout l'écran */
+/* Suppression de la restriction de largeur pour les sections */
 .section {
     padding: 2rem;
     width: 100%;
-    max-width: none; /* Retirer la restriction de largeur */
     margin: 0 auto;
 }
 
-.home, .about, .contact {
-    text-align: center;
+/* Style de la section À propos */
+.section.about {
+    display: flex;
+    justify-content: center;
+    padding: 3rem 2rem;
+    background-color: #f4f4f9; /* couleur légèrement différente pour la distinguer */
 }
 
-/* Autres sections pour le style global */
 .about-content {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 1.5rem;
+    flex-direction: row;
+    gap: 2rem;
+    width: 90%; /* permet d'étendre le contenu sur une large partie de l'écran */
+    max-width: 1200px;
 }
 
 .about-text {
-    max-width: 400px;
+    flex: 1; /* prendre tout l'espace disponible */
+    text-align: justify;
+}
+
+.about-photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0; /* empêche la réduction de la photo */
 }
 
 .about-photo img {
-    width: 150px;
-    height: 150px;
+    width: 200px; /* plus grand pour occuper l'espace visuel */
+    height: 200px;
     border-radius: 50%;
     object-fit: cover;
 }
+
 
 .skills ul {
     list-style-type: none;
