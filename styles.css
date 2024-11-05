@@ -31,48 +31,33 @@ header nav ul li a {
     text-decoration: none;
 }
 
-/* Suppression de la restriction de largeur pour les sections */
 .section {
     padding: 2rem;
-    width: 100%;
+    max-width: 800px;
     margin: 0 auto;
 }
 
-/* Style de la section À propos */
-.section.about {
-    display: flex;
-    justify-content: center;
-    padding: 3rem 2rem;
-    background-color: #f4f4f9; /* couleur légèrement différente pour la distinguer */
+.home, .about, .contact {
+    text-align: center;
 }
 
 .about-content {
     display: flex;
-    flex-direction: row;
-    gap: 2rem;
-    width: 90%; /* permet d'étendre le contenu sur une large partie de l'écran */
-    max-width: 1200px;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
 }
 
 .about-text {
-    flex: 1; /* prendre tout l'espace disponible */
-    text-align: justify;
-}
-
-.about-photo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-shrink: 0; /* empêche la réduction de la photo */
+    max-width: 400px;
 }
 
 .about-photo img {
-    width: 200px; /* plus grand pour occuper l'espace visuel */
-    height: 200px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     object-fit: cover;
 }
-
 
 .skills ul {
     list-style-type: none;
@@ -143,7 +128,6 @@ footer {
     text-align: center;
     margin-top: 2rem;
 }
-
 .social-links {
     margin-top: 20px;
     text-align: center;
@@ -163,7 +147,6 @@ footer {
 .section.mini-projects {
     padding: 50px;
     background-color: #f9f9f9;
-    width: 100%;
 }
 
 .section.mini-projects h2 {
