@@ -31,9 +31,11 @@ header nav ul li a {
     text-decoration: none;
 }
 
+/* Supprimer la limite de largeur dans .section pour occuper tout l'écran */
 .section {
     padding: 2rem;
-    max-width: 800px;
+    width: 100%;
+    max-width: none; /* Retirer la restriction de largeur */
     margin: 0 auto;
 }
 
@@ -41,6 +43,7 @@ header nav ul li a {
     text-align: center;
 }
 
+/* Autres sections pour le style global */
 .about-content {
     display: flex;
     align-items: center;
@@ -128,6 +131,7 @@ footer {
     text-align: center;
     margin-top: 2rem;
 }
+
 .social-links {
     margin-top: 20px;
     text-align: center;
@@ -147,6 +151,7 @@ footer {
 .section.mini-projects {
     padding: 50px;
     background-color: #f9f9f9;
+    width: 100%;
 }
 
 .section.mini-projects h2 {
@@ -205,5 +210,3 @@ footer {
     background-color: #007acc;
     color: #fff;
 }
-
-
