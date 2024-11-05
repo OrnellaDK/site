@@ -143,3 +143,67 @@ footer {
     transform: scale(1.1);
 }
 
+/* Style pour la section Mini Projets */
+.section.mini-projects {
+    padding: 50px;
+    background-color: #f9f9f9;
+}
+
+.section.mini-projects h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+
+.mini-projects-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.mini-project-item {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-align: center;
+}
+
+.mini-project-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.mini-project-item h3 {
+    font-size: 1.5em;
+    color: #007acc;
+    margin-bottom: 10px;
+}
+
+.mini-project-item p {
+    font-size: 1em;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.mini-project-item a {
+    color: #007acc;
+    font-weight: bold;
+    text-decoration: none;
+    border: 1px solid #007acc;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.mini-project-item a:hover {
+    background-color: #007acc;
+    color: #fff;
+}
+
+
