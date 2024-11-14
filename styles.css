@@ -87,6 +87,36 @@ header nav ul li a {
     border-radius: 20px;
 }
 
+/* Section Logiciels */
+.section.software {
+    padding: 2rem;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.software h2 {
+    font-size: 2em;
+    margin-bottom: 1.5rem;
+    color: #333;
+}
+
+.software-list {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.software-list li {
+    background-color: #333;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+
 /* Projets en pleine largeur */
 .projects {
     width: 100%;
