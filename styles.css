@@ -90,31 +90,51 @@ header nav ul li a {
 /* Section Logiciels */
 .section.software {
     padding: 2rem;
-    background-color: #ffffff;
+    background-color: #f5f5f5;
     text-align: center;
 }
 
-.software h2 {
+.section.software h2 {
     font-size: 2em;
     margin-bottom: 1.5rem;
     color: #333;
 }
 
+/* Liste des logiciels */
 .software-list {
     list-style-type: none;
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
     justify-content: center;
+    padding: 0;
+    margin: 0;
 }
 
 .software-list li {
-    background-color: #333;
+    background-color: #007acc;
     color: #fff;
-    padding: 0.5rem 1rem;
-    border-radius: 20px;
+    padding: 0.6rem 1.2rem;
+    border-radius: 25px;
     font-weight: bold;
+    font-size: 1em;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
+.software-list li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Rendre les éléments responsifs */
+@media (max-width: 768px) {
+    .software-list {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
 
 
 /* Projets en pleine largeur */
